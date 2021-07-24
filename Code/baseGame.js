@@ -34,12 +34,12 @@ function create()
     this.add.image(0, 160, 'dialog').setOrigin(0,0);
 
     // manipulation of images
-    npc_Woman = this.add.image(100, 0, 'woman').setOrigin(0,0);
+    npc_Woman = this.add.image(160, 110, 'woman').setOrigin(0,0);
     npc_Woman.setScale(0.1);
 }
 
 
 function update() 
 {
-    
+
 }
