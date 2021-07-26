@@ -6,7 +6,7 @@ Jeder Script beschreibt eine Szene des eigentlichen Spiels
 var config = {
     type: Phaser.AUTO, // Wie das Spiel gerenderd wird: Erst WebGL, sonst Canvas
     width: 320,
-    height: 220, // um 40 px erhoet um Dialog hinzuzufuegen
+    height: 220,
     scene: { // Funktionen die wir weiter unten verwenden
         preload: preload,
         create: create,
